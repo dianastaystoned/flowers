@@ -1001,7 +1001,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 @media (min-width: 300px), screen and (min-height: 768px) {
   .wrapper{
     width: 50%;
-    top: -1000px;
+    top: -1000000px;
     display: flex;
     justify-content: center;
     align-items: top;
