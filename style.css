@@ -999,7 +999,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   width: 149ch;
   animation: typing 3s steps(27), blink .5s step-end infinite alternate;
 }
-@media (width: 300px), screen{
+@media (min-width: 300px), screen{
   .wrapper{
     width: 50%;
     padding-bottom: 190%;
@@ -1014,8 +1014,6 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   }
   .flowers {
     position: relative;
-    transform: scale(0.7);
-    padding-bottom: 100%;
   }
 }
 @keyframes typing {
