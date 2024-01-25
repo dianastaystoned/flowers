@@ -1012,9 +1012,18 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     position: absolute;
     z-index: 2;
   }
-  .flower{
+  .flowers {
     position: relative;
-    padding-bottom: 100%;
+    transform: scale(0.7);
+  }
+  
+  .flower {
+    position: absolute;
+    bottom: 10vmin;
+    transform-origin: bottom center;
+    z-index: 10;
+    --fl-speed: 0.8s;
+    padding-bottom: 30%;
   }
 }
 @keyframes typing {
