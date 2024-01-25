@@ -998,7 +998,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   width: 149ch;
   animation: typing 2s steps(27), blink .5s step-end infinite alternate;
 }
-@media (min-width: 300px)  {
+@media (min-width: 300px), screen and(max-height: 800px)  {
   .wrapper{
     width: 50%;
     display: flex;
