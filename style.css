@@ -1009,8 +1009,8 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   .wrapper .typing-demo{
     max-width: 80%;
     font-size: 1.2em;
-    color: #aa15a0;
-    position: fixed;
+    color: #aa1515;
+    position: absolute;
     z-index: 2;
   }
 }
