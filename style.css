@@ -1001,7 +1001,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 @media (min-width: 300px), screen and (min-height: 768px) {
   .wrapper{
     width: 50%;
-    padding-bottom: 10%;
+    top: 140%;
     display: flex;
     justify-content: center;
     align-items: top;
@@ -1009,10 +1009,9 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   .wrapper .typing-demo{
     max-width: 80%;
     font-size: 1.2em;
-    color: #15aa15;
-    position: fixed;
+    color: #1114c2;
+    position: absolute;
     z-index: 2;
-    bottom: 100%;
   }
 }
 @keyframes typing {
