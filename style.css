@@ -1012,9 +1012,6 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     position: absolute;
     z-index: 2;
   }
-  .flowers {
-    position: absolute;
-  }
 }
 @keyframes typing {
   from {
