@@ -998,15 +998,18 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   width: 149ch;
   animation: typing 2s steps(27), blink .5s step-end infinite alternate;
 }
-@media (min-width: 300px), screen{
+@media (min-width: 300px), screen and (min-height: 768px) {
   .wrapper{
     width: 50%;
-    display: absolute;
+    display: fixed;
     place-items: top;
+    align-items: flex-start;
+    justify-content: center
   }
   .wrapper .typing-demo{
     max-width: 80%;
     font-size: 1.2em;
+    color: #159faa;
   }
 }
 @keyframes typing {
