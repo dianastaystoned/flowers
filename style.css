@@ -18,7 +18,6 @@ body {
   background-color: var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
-  z-index: -1;
 }
 
 .night {
@@ -1002,15 +1001,19 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 @media (min-width: 300px), screen and (min-height: 768px) {
   .wrapper{
     width: 50%;
-    display: fixed;
-    place-items: top;
-    align-items: flex-start;
-    justify-content: center
+    padding-bottom: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
   }
   .wrapper .typing-demo{
     max-width: 80%;
     font-size: 1.2em;
-    color: #159faa;
+    color: #8caa15;
+    position: absolute;
+    z-index: 2;
+    white-space: wrap;
+    overflow: hidden;
   }
 }
 @keyframes typing {
