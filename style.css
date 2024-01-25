@@ -997,7 +997,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   z-index: 2;
   color: #fff;
   width: 149ch;
-  animation: typing 2s steps(27), blink .5s step-end infinite alternate;
+  animation: typing 3s steps(27), blink .5s step-end infinite alternate;
 }
 @media (min-width: 300px), screen and (min-height: 768px) {
   .wrapper{
@@ -1015,7 +1015,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   .flowers {
     position: relative;
     transform: scale(0.7);
-    padding-bottom: 80%;
+    padding-bottom: 100%;
   }
 }
 @keyframes typing {
