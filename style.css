@@ -18,6 +18,7 @@ body {
   background-color: var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
+  z-index: -1;
 }
 
 .night {
