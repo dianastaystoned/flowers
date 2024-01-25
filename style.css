@@ -1001,14 +1001,14 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 @media (min-width: 300px), screen and (min-height: 768px) {
   .wrapper{
     width: 50%;
-    padding-bottom: 200%;
+    padding-bottom: 180%;
     display: flex;
     
   }
   .wrapper .typing-demo{
     max-width: 80%;
-    font-size: 1.2em;
-    color: #c25e11;
+    font-size: 1em;
+    color: #11c22f;
     position: absolute;
     z-index: 2;
   }
