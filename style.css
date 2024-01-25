@@ -1002,6 +1002,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   .wrapper{
     width: 50%;
     padding-top: -10%;
+    z-index: 10;
   }
   .wrapper .typing-demo{
     max-width: 80%;
