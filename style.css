@@ -35,7 +35,6 @@ body {
 .flowers {
   position: relative;
   transform: scale(0.7);
-  padding-bottom: 80%;
 }
 
 .flower {
@@ -1012,6 +1011,11 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     color: #ffffff;
     position: absolute;
     z-index: 2;
+  }
+  .flowers {
+    position: relative;
+    transform: scale(0.7);
+    padding-bottom: 80%;
   }
 }
 @keyframes typing {
