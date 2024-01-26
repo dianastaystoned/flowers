@@ -191,7 +191,7 @@ p .lovely{
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1524px) {
   .envelope {
     width: 30%; /* Further reduce the width of the envelope on larger screens */
   }
