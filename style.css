@@ -999,7 +999,28 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   width: 149ch;
   animation: typing 3s steps(259), blink .5s step-end infinite alternate;
 }
-@media (min-width: 300px){
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+@keyframes growing-grass-ans {
+  0% {
+    transform: scale(0);
+  }
+}
+.not-loaded * {
+  animation-play-state: paused !important;
+}
+
+/* @media (min-width: 300px){
   .wrapper{
     width: 50%;
     padding-bottom: 190%;
@@ -1025,23 +1046,74 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     --fl-speed: 0.8s;
     padding-bottom: 80%;
   }
-}
-@keyframes typing {
-  from {
-    width: 0;
+} */
+
+@media (max-width: 320px) {
+  .flower {
+    width: 5vmin;
+    height: 7vmin;
+  }
+
+  .flower__line {
+    height: 35vmin;
+  }
+
+  .flower__line__leaf {
+    width: 5vmin;
+    height: 7vmin;
+  }
+
+  .flower__grass {
+    --line-w: 0.7vmin;
+  }
+
+  .flower__g-long {
+    --w: 0.7vmin;
+    --h: 2vmin;
+  }
+
+  .long-g {
+    --w: 7vmin;
+    --h: 20vmin;
+  }
+
+  .long-g .leaf {
+    width: var(--w);
+    height: var(--h);
   }
 }
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
+
+@media (max-width: 1524px) {
+  .flower {
+    width: 3vmin;
+    height: 4vmin;
   }
-}
-@keyframes growing-grass-ans {
-  0% {
-    transform: scale(0);
+
+  .flower__line {
+    height: 20vmin;
   }
-}
-.not-loaded * {
-  animation-play-state: paused !important;
+
+  .flower__line__leaf {
+    width: 3vmin;
+    height: 4vmin;
+  }
+
+  .flower__grass {
+    --line-w: 0.5vmin;
+  }
+
+  .flower__g-long {
+    --w: 0.5vmin;
+    --h: 1.5vmin;
+  }
+
+  .long-g {
+    --w: 5vmin;
+    --h: 15vmin;
+  }
+
+  .long-g .leaf {
+    width: var(--w);
+    height: var(--h);
+  }
 }
