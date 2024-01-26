@@ -1097,5 +1097,6 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     transform-origin: bottom center;
     z-index: 10;
     --fl-speed: 0.8s;
+    padding-bottom: 180%;
   }
 }
