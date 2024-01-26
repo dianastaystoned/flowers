@@ -162,7 +162,7 @@ p .lovely{
   }
 } */
 
-@media (min-width: 298px) {
+@media (min-width: 798px) {
   .envelope {
     width: 50%; /* Further reduce the width of the envelope on larger screens */
   }
