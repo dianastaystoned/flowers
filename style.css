@@ -1080,25 +1080,11 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 @media (max-width: 1524px) {
   .wrapper {
     padding-top: 3%;
-    height: 100%;
     /*This part is important for centering*/
     display: flex;
     justify-content: center;
     align-items: top;
     max-width: fit-content;
-  }
-  
-  .wrapper .typing-demo {
-    white-space: wrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-    position: absolute;
-    z-index: 2;
-    color: #fff;
-    width: 149ch;
-    animation: typing 3s steps(259), blink .5s step-end infinite alternate;
   }
   .flowers {
     position: relative;
