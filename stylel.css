@@ -162,7 +162,7 @@ p .lovely{
   }
 } */
 
-@media (min-width: 798px) {
+@media (min-width: 308px) {
   .envelope {
     width: 50%; /* Further reduce the width of the envelope on larger screens */
   }
@@ -175,7 +175,7 @@ p .lovely{
     width: 3em; /* Increase the size of the heart on larger screens */
     height: 3em; /* Increase the height of the heart on larger screens */
     position: absolute;
-    top: 56%;
+    top: 50%;
     left: 50%;
     background: var(--heart-color);
     z-index: 4;
