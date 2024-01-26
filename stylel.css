@@ -184,6 +184,11 @@ p .lovely{
     box-shadow: 0 1px 6px var(--shadow-color);
     cursor: pointer;
   }
+  .btn {
+    width: auto; /* El botón tendrá un ancho automático en pantallas más grandes */
+    padding: 12px 24px; /* Espacio interno del botón en pantallas más grandes */
+    font-size: 18px; /* Tamaño de fuente más grande en pantallas más grandes */
+  }
 }
 
 @media (min-width: 1024px) {
@@ -196,8 +201,8 @@ p .lovely{
   }
 
   .heart {
-    width: 4em; /* Increase the size of the heart on larger screens */
-    height: 4em; /* Increase the height of the heart on larger screens */
+    width: 15px; /* Increase the size of the heart on larger screens */
+    height: 15px; /* Increase the height of the heart on larger screens */
     position: absolute;
     top: 50%;
     left: 50%;
