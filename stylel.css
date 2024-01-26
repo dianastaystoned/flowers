@@ -120,7 +120,7 @@ p .lovely{
   transition-delay: 0.4s;
 }
 
-@media (max-width: 400px){
+@media (min-width: 400px){
   .container {
     height: 100vh;
     display: grid;
