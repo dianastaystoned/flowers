@@ -119,3 +119,24 @@ p .lovely{
   transform: rotate(90deg);
   transition-delay: 0.4s;
 }
+
+@media (min-width: 300px), screen{
+  .container {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .heart {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    background: var(--heart-color);
+    z-index: 4;
+    transform: translate(-50%, -20%) rotate(45deg);
+    transition: transform 0.5s ease-in-out 1s;
+    box-shadow: 0 1px 6px var(--shadow-color);
+    cursor: pointer;
+  }
+}
