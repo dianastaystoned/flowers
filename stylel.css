@@ -175,7 +175,7 @@ p .lovely{
     width: 3em; /* Increase the size of the heart on larger screens */
     height: 3em; /* Increase the height of the heart on larger screens */
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     background: var(--heart-color);
     z-index: 4;
