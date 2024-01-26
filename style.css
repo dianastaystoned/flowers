@@ -1062,37 +1062,18 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     z-index: 2;
   }
 
+  .flowers {
+    position: relative;
+    transform: scale(0.7);
+  }
+  
   .flower {
-    width: 5vmin;
-    height: 7vmin;
-  }
-
-  .flower__line {
-    height: 35vmin;
-  }
-
-  .flower__line__leaf {
-    width: 5vmin;
-    height: 7vmin;
-  }
-
-  .flower__grass {
-    --line-w: 0.7vmin;
-  }
-
-  .flower__g-long {
-    --w: 0.7vmin;
-    --h: 2vmin;
-  }
-
-  .long-g {
-    --w: 7vmin;
-    --h: 20vmin;
-  }
-
-  .long-g .leaf {
-    width: var(--w);
-    height: var(--h);
+    position: absolute;
+    bottom: 10vmin;
+    transform-origin: bottom center;
+    z-index: 10;
+    --fl-speed: 0.8s;
+    padding-bottom: 80%;
   }
 }
 
@@ -1110,37 +1091,17 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     position: absolute;
     z-index: 2;
   }
-
+  .flowers {
+    position: relative;
+    transform: scale(0.7);
+  }
+  
   .flower {
-    width: 3vmin;
-    height: 4vmin;
-  }
-
-  .flower__line {
-    height: 20vmin;
-  }
-
-  .flower__line__leaf {
-    width: 3vmin;
-    height: 4vmin;
-  }
-
-  .flower__grass {
-    --line-w: 0.5vmin;
-  }
-
-  .flower__g-long {
-    --w: 0.5vmin;
-    --h: 1.5vmin;
-  }
-
-  .long-g {
-    --w: 5vmin;
-    --h: 15vmin;
-  }
-
-  .long-g .leaf {
-    width: var(--w);
-    height: var(--h);
+    position: absolute;
+    bottom: 10vmin;
+    transform-origin: bottom center;
+    z-index: 10;
+    --fl-speed: 0.8s;
+    padding-bottom: 80%;
   }
 }
