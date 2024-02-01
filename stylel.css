@@ -184,7 +184,7 @@ p .lovely{
     box-shadow: 0 1px 6px var(--shadow-color);
     cursor: pointer;
   }
-  .btn {
+  button{
     width: auto; /* El botón tendrá un ancho automático en pantallas más grandes */
     padding: 12px 24px; /* Espacio interno del botón en pantallas más grandes */
     font-size: 18px; /* Tamaño de fuente más grande en pantallas más grandes */
