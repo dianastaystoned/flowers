@@ -184,27 +184,11 @@ p .lovely{
     box-shadow: 0 1px 6px var(--shadow-color);
     cursor: pointer;
   }
-  button{
+  .btn {
     width: auto; /* El botón tendrá un ancho automático en pantallas más grandes */
-    padding-bottom: 20%;
+    padding: 12px 24px; /* Espacio interno del botón en pantallas más grandes */
+    font-size: 18px; /* Tamaño de fuente más grande en pantallas más grandes */
   }
-}
-
-button {
-  color: #090909;
-  padding: 0.7em 1.7em;
-  font-size: 18px;
-  border-radius: 0.5em;
-  background: #e8e8e8;
-  cursor: pointer;
-  border: 1px solid #e8e8e8;
-  transition: all 0.3s;
-  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
-}
-
-button:active {
-  color: #666;
-  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
 }
 
 @media (max-width: 1524px) {
