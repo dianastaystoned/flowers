@@ -186,6 +186,7 @@ p .lovely{
   }
   button{
     width: auto; /* El botón tendrá un ancho automático en pantallas más grandes */
+    padding-bottom: 20%;
   }
 }
 
